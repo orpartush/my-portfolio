@@ -1,0 +1,27 @@
+.email-link {
+  position: fixed;
+  bottom: 0;
+  right: 3%;
+  &:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: darken($clr3, 35%);
+    margin: 0px auto;
+  }
+  a {
+    writing-mode: vertical-rl;
+    padding: 10px;
+    font-family: OpenSans, sans-serif;
+    font-size: 0.9rem;
+    color: $clr3;
+    transition: 0.3s;
+    &:hover {
+      color: $clr5;
+    }
+  }
+  @media only screen and (max-width: 1180px) {
+    display: none;
+  }
+}

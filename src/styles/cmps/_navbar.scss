@@ -1,0 +1,156 @@
+.navbar {
+  font-family: Electrolize, sans-serif;
+  height: 70px;
+  background-color: $clr1;
+  margin-bottom: rem(75px);
+  padding: 0 rem(50px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: 0.3s;
+  .logo {
+    color: $clr5;
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    background-color: $clr1;
+    transition: ease-in 0.2s;
+    padding: 5px;
+    border-radius: 3px;
+    &:hover {
+      background-color: darken($clr5, 62%);
+      cursor: pointer;
+    }
+  }
+  .nav-links {
+    width: fit-content;
+    li {
+      margin: 0 10px;
+      * {
+        color: $clr3;
+      }
+      span {
+        letter-spacing: 0.04em;
+        color: $clr5;
+      }
+      a {
+        padding: 12px 10px;
+        transition: ease-in 0.2s;
+        letter-spacing: 0.04em;
+        &:hover {
+          color: $clr5;
+        }
+      }
+      .resume-link {
+        @include for-button;
+        font-size: rem(13px);
+        padding: rem(12px) rem(16px);
+      }
+    }
+    :last-child {
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
+  .my-hamburger {
+    display: none;
+  }
+
+  .close-menu-btn {
+    display: none;
+    z-index: 9999;
+    color: $clr5;
+    font-size: 1.5rem;
+    transition: 0.2s;
+    &:hover {
+      cursor: pointer;
+      color: lighten($clr5, 10%);
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    background-color: $clr1;
+    margin-bottom: rem(75px);
+    padding: 0 rem(50px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 9999;
+    transition: 0.3s;
+    padding: 0 1.325rem;
+    .screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba($color: #000000, $alpha: 0.6);
+    }
+    .nav-links {
+      z-index: 1;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin: 0;
+      transform: translate(100%, 100%);
+      width: 50%;
+      height: 100vh;
+      background-color: $clr1;
+      transition: 0.3s;
+      margin: 0;
+      > * {
+        padding-bottom: 20px;
+      }
+      > :first-child {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 0;
+        margin-top: rem(75px);
+      }
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+          font-size: 0.8rem;
+        }
+        a {
+          font-size: 1.1rem;
+        }
+      }
+      :last-child {
+        margin: 0 auto;
+      }
+    }
+    .my-hamburger {
+      display: block;
+      z-index: 9;
+      position: absolute;
+      right: 3%;
+      transition: 0.2s;
+      font-size: rem(24px);
+      &:hover {
+        color: lighten($clr5, 10%);
+        cursor: pointer;
+      }
+    }
+    .menu-open {
+      position: fixed;
+      transform: translate(0, 0);
+      box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+.display-el {
+  display: none;
+}
+
+.shadow {
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
+}

@@ -1,0 +1,91 @@
+.hero {
+  height: 100vh;
+  .intro {
+    font-family: Electrolize, sans-serif;
+    color: $clr5;
+    word-spacing: 0.2em;
+  }
+  h1 {
+    font-size: 4rem;
+    color: $clr6;
+    &::after {
+      content: '.';
+      color: $clr5;
+    }
+  }
+  span {
+    font-size: 4rem;
+    .quote {
+      color: $clr5;
+    }
+    .fs {
+      position: relative;
+      font-size: 4rem;
+      color: $clr5;
+      overflow: hidden;
+      background: linear-gradient(to right, $clr5, $clr5 50%, $clr3 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 0.3s ease;
+      text-decoration: none; // text decorations are clipped in WebKit browsers
+      &:hover {
+        background-position: 0 100%;
+      }
+    }
+  }
+  .txt {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 80%;
+    font-family: OpenSans, sans-serif;
+    font-size: rem(20px);
+    color: $clr3;
+  }
+  a {
+    width: fit-content;
+    font-family: Electrolize, sans-serif;
+    letter-spacing: 0.04em;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 15px 30px;
+    background-color: $clr1;
+    color: $clr5;
+    border: 1px solid $clr5;
+    border-radius: 3px;
+    transition: ease 0.3s;
+    &:hover {
+      background-color: darken($clr5, 62%);
+    }
+  }
+
+  @media only screen and(max-width: 880px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    span {
+      font-size: 3.5rem;
+      .fs {
+        font-size: 3.5rem;
+      }
+    }
+    .txt {
+      width: 95%;
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and(max-width: 550px) {
+    h1 {
+      font-size: 3rem;
+    }
+    span {
+      font-size: 3rem;
+      .fs {
+        font-size: 3rem;
+      }
+    }
+  }
+}

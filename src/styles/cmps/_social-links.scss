@@ -1,0 +1,25 @@
+.social-links {
+  position: fixed;
+  bottom: 0;
+  left: 3%;
+  &:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: darken($clr3, 35%);
+    margin: 0px auto;
+  }
+  a {
+    font-size: 1.5rem;
+    margin: 10px;
+    color: $clr3;
+    transition: 0.3s;
+    &:hover {
+      color: $clr5;
+    }
+  }
+  @media only screen and (max-width: 1180px) {
+    display: none;
+  }
+}

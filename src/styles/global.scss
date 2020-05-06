@@ -1,0 +1,22 @@
+// Basic
+@import './basics/variables';
+@import './basics/functions';
+@import './basics/mixins';
+@import './basics/typography';
+@import './basics/base';
+@import './basics/helpers';
+@import './basics/layout';
+
+// Cmps
+@import './cmps/hero';
+@import './cmps/navbar';
+@import './cmps/about';
+@import './cmps/projects';
+@import './cmps/social-links';
+@import './cmps/email-link';
+@import './cmps/contact';
+
+//Layout
+
+// Pages
+@import './pages/home-page';

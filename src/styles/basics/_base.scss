@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: RalewayBold, sans-serif;
+  background-color: $clr1;
+  * {
+    &::selection {
+      background-color: $clr5; /* WebKit/Blink Browsers */
+      color: black;
+    }
+  }
+}
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+p {
+  margin: 0;
+}
