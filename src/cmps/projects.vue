@@ -8,7 +8,7 @@
           href="http://gizmo-builder.herokuapp.com/"
           target="_blank"
           class="proj-title"
-        >Gizmo, Free Website Builder</a>
+        >Gizmo, Website Builder</a>
         <p
           class="proj-info"
         >With Gizmo you can create a responsive and free website(🥳), without even one line of code(😢), with Gizmo's editor, templates and drag-and-drop feature.</p>
