@@ -3,7 +3,7 @@
     <p class="title">About Me</p>
     <p class="txt">
       Graduate of
-      <a href="https://www.coding-academy.org/" target="_blank">Coding Academy</a> - An intensive coding bootcamp (640 hours) that qualifies Full stack developers.
+      <a href="https://www.coding-academy.org/" target="_blank">Coding Academy</a> - An intensive coding bootcamp (640 hours) that qualifies Full-Stack developers.
       <br />Built several projects, all code is available on Github for code review.
       <br />Here are a few technologies I've been working with recently:
     </p>
