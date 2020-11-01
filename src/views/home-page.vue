@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import Hero from '../cmps/hero';
-import About from '../cmps/about';
-import Projects from '../cmps/projects';
-import Contact from '../cmps/contact';
-import SocialLinks from '../cmps/social-links';
-import EmailLink from '../cmps/email-link';
+import Hero from "../cmps/hero";
+import About from "../cmps/about";
+import Projects from "../cmps/projects";
+import Contact from "../cmps/contact";
+import SocialLinks from "../cmps/social-links";
+import EmailLink from "../cmps/email-link";
 
 export default {
   components: {
@@ -24,10 +24,7 @@ export default {
     Projects,
     Contact,
     SocialLinks,
-    EmailLink
-  }
-}
+    EmailLink,
+  },
+};
 </script>
-
-<style>
-</style>
