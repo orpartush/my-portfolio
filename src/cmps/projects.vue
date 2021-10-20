@@ -11,9 +11,9 @@
           >Jobbme</a
         >
         <p class="proj-info">
-          Jobbme is an Excel alternative to manage positions you apply when
-          searching for new job. With Jobbme's features like filter, sort and
-          search it's easier than ever to manage the position you desire.
+          Jobbme exist to manage positions you apply when searching for new job.
+          With Jobbme's features like filter, sort and search it's easier than
+          ever to manage the positions you desire.
         </p>
         <p class="techs">
           Vue3 Vuex Node.js MongoDB SCSS
