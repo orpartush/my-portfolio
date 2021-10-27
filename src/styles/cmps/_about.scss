@@ -34,7 +34,7 @@
     }
   }
   .icons-container {
-    margin:0 auto;
+    margin: 0 auto;
     width: fit-content;
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     background-color: $clr2;
@@ -42,16 +42,17 @@
     padding: 10px;
     transition: all 0.25s;
     img {
+      padding: 5px;
       border-radius: 3px;
-      width: 100px;
-      transition: ease-out .2s;
+      width: 110px;
+      transition: ease-out 0.2s;
       &:hover {
         transform: rotate(3deg);
         background-color: rgba(255, 255, 255, 0.1);
       }
     }
   }
-  
+
   @media only screen and (max-width: 980px) {
     .txt {
       width: 90%;
@@ -75,6 +76,7 @@
       margin-bottom: 40px;
     }
     .icons-container {
+      justify-content: center;
       img {
         width: 40px;
       }
