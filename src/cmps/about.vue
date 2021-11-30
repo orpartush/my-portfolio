@@ -2,14 +2,12 @@
   <section class="about" id="about">
     <p class="title">About Me</p>
     <p class="txt">
-      Graduate of
-      <a href="https://www.coding-academy.org/" target="_blank"
-        >Coding Academy</a
-      >
-      - An intensive coding bootcamp (640 hours) that qualifies Full-Stack
-      developers. <br />Built several projects, all code is available on Github
-      for code review. <br />Here are a few technologies I've been working with
-      recently:
+      Full-Stack Developer with experience in React.js, Next.js, Node.js,
+      etc.<br />
+      Developed several projects including E-Commerce platform from scratch.<br />
+      Passionate about technology, striving to be the best, fast learner and a
+      team player. <br />
+      Here are a few technologies I've been working with recently:
     </p>
     <section class="icons-container flex space-evenly wrap">
       <img src="@/assets/img/react.svg" alt="React" title="React" />
