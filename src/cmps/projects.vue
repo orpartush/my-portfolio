@@ -1,7 +1,7 @@
 <template>
   <section class="projects" id="projects">
     <p class="title">My Projects</p>
-    <section class="proj proj-right flex align-center">
+    <!-- <section class="proj proj-right flex align-center">
       <div class="flex flex-column align-start justify-center">
         <p class="featured">Featured Project</p>
         <a
@@ -36,7 +36,7 @@
         </section>
       </div>
       <img src="@/assets/img/projects/jobbme.png" alt="Jobbme" title="Jobbme" />
-    </section>
+    </section> -->
     <section class="proj proj-left flex align-center">
       <div class="flex flex-column align-start justify-center">
         <p class="featured">Featured Project</p>
